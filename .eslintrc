@@ -4,6 +4,7 @@
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }], // Permet de faire du JSX dans du js
     "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],
     "react/prop-types": "off",
+    "eslint-disable react/no-unescaped-entities": "off",
     "no-console": "off",
     "react/prefer-stateless-function": "off",
     "react/function-component-definition": [
@@ -13,5 +14,6 @@
       }
     ]
   },
-  "extends": ["airbnb", "airbnb/hooks", "prettier"]
+  "extends": ["airbnb", "airbnb/hooks", "prettier"],
+  "parser": "@babel/eslint-parser"
 }
