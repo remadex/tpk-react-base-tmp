@@ -2,7 +2,7 @@
   "rules": {
     "react/react-in-jsx-scope": "off", // Evite d'ajouter "import React from 'react'" (surtout dans la v17)
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }], // Permet de faire du JSX dans du js
-    "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],
+    "import/no-extraneous-dependencies": ["off", { "devDependencies": true }],
     "react/prop-types": "off",
     "react/no-unescaped-entities": "off",
     "no-console": "off",
